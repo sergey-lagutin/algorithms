@@ -1,7 +1,10 @@
 package sc.collection.stacks
 
+import org.junit.runner.RunWith
+import org.scalatest.junit.JUnitRunner
 import org.scalatest.{FlatSpec, Matchers}
 
+@RunWith(classOf[JUnitRunner])
 class StackArrayResizingSpec extends FlatSpec with Matchers {
 
   trait EmptyStack {
